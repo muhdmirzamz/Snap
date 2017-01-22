@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAEE03951E30EB1800574C56 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE03941E30EB1800574C56 /* Line.swift */; };
 		AAF781F61E29BC3F0011495D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF781F51E29BC3F0011495D /* AppDelegate.swift */; };
 		AAF781F81E29BC3F0011495D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF781F71E29BC3F0011495D /* ViewController.swift */; };
 		AAF781FB1E29BC3F0011495D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAF781F91E29BC3F0011495D /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAEE03941E30EB1800574C56 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		AAF781F21E29BC3F0011495D /* Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF781F51E29BC3F0011495D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAF781F71E29BC3F0011495D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				AAF781F51E29BC3F0011495D /* AppDelegate.swift */,
 				AAF781F71E29BC3F0011495D /* ViewController.swift */,
+				AAEE03941E30EB1800574C56 /* Line.swift */,
 				AAF781F91E29BC3F0011495D /* Main.storyboard */,
 				AAF781FF1E29BC3F0011495D /* Assets.xcassets */,
 				AAF782011E29BC3F0011495D /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				AAF781F81E29BC3F0011495D /* ViewController.swift in Sources */,
 				AAF781FE1E29BC3F0011495D /* Snap.xcdatamodeld in Sources */,
 				AAF781F61E29BC3F0011495D /* AppDelegate.swift in Sources */,
+				AAEE03951E30EB1800574C56 /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

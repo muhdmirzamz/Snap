@@ -4,6 +4,9 @@ A snapchat clone. My attempt at learning how to recreate apps and learn some iOS
 
 ####CHANGELOG:
 
+22 Jan 2017:
+- You can now draw on pictures you have taken
+
 15 Jan 2017:
 - You can now take picture and store in your photo library
 - You can now switch between screens
