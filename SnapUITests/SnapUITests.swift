@@ -28,9 +28,18 @@ class SnapUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testTakingPhoto() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+		XCUIDevice.shared().orientation = .portrait
+		XCUIDevice.shared().orientation = .faceUp
+		
+		let app = XCUIApplication()
+		app.buttons["take pic"].tap()
+		app.buttons["PhotoCapture"].tap()
+		app.buttons["Use Photo"].tap()
+		
+		// use accessibility label
+		XCTAssertNotNil(app.images["imageView"])
     }
-    
 }
