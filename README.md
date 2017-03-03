@@ -4,6 +4,12 @@ A snapchat clone. My attempt at learning how to recreate apps and learn some iOS
 
 ####CHANGELOG:
 
+3 Mar 2017:
+- Restructured whole app
+- You can now choose between 4 colours to draw on pictures
+- Custom camera view has been removed. Now, this uses ```UIImagePickerViewController```
+- UI tests done
+
 22 Jan 2017:
 - You can now draw on pictures you have taken
 
